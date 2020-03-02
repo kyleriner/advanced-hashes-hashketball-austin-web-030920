@@ -220,7 +220,7 @@ def most_points_scored
         end
         values.each do |player|
           if player[:points] == most_points
-            return player[:points]
+            return player[:player_name]
           end
         end
       end
