@@ -248,7 +248,7 @@ end
 
 # If you'd like to work on the bonus, uncomment these tests.
 
-# describe 'bonus' do
+describe 'bonus' do
 
   describe '#most_points_scored' do
 
@@ -274,9 +274,9 @@ end
 
   end
 
-#end
+end
 
-# describe 'super bonus' do
+describe 'super bonus' do
 
   describe '#long_name_steals_a_ton?' do
 
@@ -286,4 +286,4 @@ end
 
   end
 
-#end
+end
