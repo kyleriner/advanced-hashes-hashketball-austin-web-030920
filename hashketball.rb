@@ -198,6 +198,11 @@ def big_shoe_rebounds
             biggest_shoe = player[:shoe]
           end
         end
+        values.each do |player|
+          if player[:shoe] == biggest_shoe
+            return player[:rebounds]
+          end
+        end
       end
     end
   end
