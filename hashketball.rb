@@ -218,10 +218,10 @@ def most_points_scored
             most_points = player[:points]
           end
         end
-    values.each do |player|
-      if player[:points] == most_points
-        return player[:player_name]
-          
+        values.each do |player|
+          if player[:points] == most_points
+            return player[:rebounds]
+          end
         end
       end
     end
